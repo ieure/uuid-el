@@ -13,8 +13,9 @@ Add `uuid-mode` as a hook on any mode you wish to enable UUID support on:
 
 ## Usage
 
-Pressing `w` while point is in a UUID will save that UUID to the kill
-ring.
+Pressing `w` while point is in a UUID will save it to the kill ring.
 
-The commands `uuid-next-uuid` and `uuid-previous-uuid` can be bound to
+The commands `forward-uuid` and `backward-uuid` can be bound to
 enable motion between UUIDs.
+
+This mode also adds a `'uuid` type for `thing-at-point`.
